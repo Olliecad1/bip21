@@ -1,0 +1,146 @@
+{
+  "valid": [
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF"
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?",
+      "compliant": false
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin://mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "compliant": false
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?label=Luke-Jr",
+      "options": {
+        "label": "Luke-Jr"
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=0",
+      "options": {
+        "amount": 0
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin://mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=0",
+      "compliant": false,
+      "options": {
+        "amount": 0
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=1",
+      "options": {
+        "amount": 1
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=1.00",
+      "options": {
+        "amount": "1.00"
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=20.3&label=Luke-Jr",
+      "options": {
+        "amount": 20.3,
+        "label": "Luke-Jr"
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz",
+      "options": {
+        "amount": 50,
+        "label": "Luke-Jr",
+        "message": "Donation for project xyz"
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=1&custom=foobar",
+      "options": {
+        "amount": 1,
+        "custom": "foobar"
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=0.200000&r=https%3A%2F%2Fbitpay.com%2Fi%2Fxxxxxxxxxxxxxxxxxxxxxx",
+      "options": {
+        "amount": "0.200000",
+        "r": "https://bitpay.com/i/xxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin://Sfra8YaJ5UL7R6ZMg3ZH2pZLcDQP71vFQ5?amount=0.200000&r=https%3A%2F%2Fbitpay.com%2Fi%2Fxxxxxxxxxxxxxxxxxxxxxx",
+      "compliant": false,
+      "options": {
+        "amount": "0.200000",
+        "r": "https://bitpay.com/i/xxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    {
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "other:Sfra8YaJ5UL7R6ZMg3ZH2pZLcDQP71vFQ5",
+      "urnScheme": "other"
+    }
+  ],
+  "invalid": [
+    {
+      "exception": "Invalid BIP21 URI",
+      "uri": "satoshi:1BgGZ9tcN4rm9KBzDn7KprQz87SZ26XXXX"
+    },
+    {
+      "exception": "Invalid amount",
+      "address": "Sfra8YaJ5UL7R6ZMg3ZH2pZLcDQP71vFQ5",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=-1",
+      "options": {
+        "amount": -1
+      }
+    },
+    {
+      "exception": "Invalid amount",
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "options": {
+        "amount": "-1"
+      }
+    },
+    {
+      "exception": "Invalid amount",
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:Sfra8YaJ5UL7R6ZMg3ZH2pZLcDQP71vFQ5?amount=-1.00",
+      "options": {
+        "amount": -1.00
+      }
+    },
+    {
+      "exception": "Invalid amount",
+      "address": "mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF",
+      "uri": "maxcoin:Sfra8YaJ5UL7R6ZMg3ZH2pZLcDQP71vFQ5?amount=two",
+      "options": {
+        "amount": "two"
+      }
+    },
+    {
+      "exception": "Invalid amount",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=NaN"
+    },
+    {
+      "exception": "Invalid amount",
+      "uri": "maxcoin:mNpmPa1UAh8VdK8nDy8GAhHrefmmrMJfmF?amount=Infinity"
+    }
+  ]
+}
